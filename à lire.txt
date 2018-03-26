@@ -1,0 +1,10 @@
+Nous avons deux sources de données dans notre projet : 
+	> consommation-electrique-par-secteur-dactivite-commune.csv que l'on trouve sur ce lien : https://data.enedis.fr/explore/dataset/consommation-electrique-par-secteur-dactivite-commune/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true
+	> filtered-data.csv qui est généré à partir de consommation-electrique-par-secteur-dactivite-commune.csv
+
+part1 traite consommation-electrique-par-secteur-dactivite-commune.csv alors que part2 traite filtered-data.csv
+
+Enedis.py : code pour générer une table avec l'évolution de la consommation pour toutes les villes entre 2011 et 2016
+Untitled3.ipynb : pour exécuter Enedis.py
+output.csv : fichier généré à partir de Enedis.py
+part1 et part2 : générer les courbes et graphes
